@@ -27,6 +27,6 @@ use Core\Router;
 Router::add('',                                  'Home@index');
 Router::add('/post/<id>',                             'Post@index');
 
-Router::dispatch( $_SERVER['QUERY_STRING'] );
+Router::dispatch( $_SERVER['QUERY_STRING']);
 
 ?>
