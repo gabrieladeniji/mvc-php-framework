@@ -1,0 +1,22 @@
+<?php $_shouldextend[1]=1; ?>
+
+
+<?php $this->startSection('title'); ?>
+ <title> Home Page </title>
+<?php $this->stopSection(); ?>
+
+
+<?php $this->startSection('body'); ?>
+
+ <div class="card mt-4">
+ <div class="card-header">
+ Home
+ </div>
+ <div class="card-body">
+ <p class="card-text">welcome to our simple but yet robust mvc php famework.</p>
+ <a href="#" class="btn btn-primary">Get Started</a>
+ </div>
+ </div>
+
+<?php $this->stopSection(); ?>
+<?php if (@$_shouldextend[1]) { echo $this->runChild('layouts.app'); } ?>

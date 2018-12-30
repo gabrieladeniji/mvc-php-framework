@@ -1,0 +1,111 @@
+[30-Dec-2018 17:42:55 UTC] Uncaught exception: 'Exception' 
+Route not found! 
+#0 C:\Program Files (x86)\Ampps\www\MVC-GAB\public\index.php(30): Core\Router::dispatch('posts/200')
+#1 {main} 
+Thrown in 'C:\Program Files (x86)\Ampps\www\MVC-GAB\Core\Router.php' on line '125' 
+
+[30-Dec-2018 17:42:55 UTC] Uncaught exception: 'Exception' 
+Route not found! 
+#0 C:\Program Files (x86)\Ampps\www\MVC-GAB\public\index.php(30): Core\Router::dispatch('favicon.ico')
+#1 {main} 
+Thrown in 'C:\Program Files (x86)\Ampps\www\MVC-GAB\Core\Router.php' on line '125' 
+
+[30-Dec-2018 17:47:24 UTC] Uncaught exception: 'Exception' 
+Route not found! 
+#0 C:\Program Files (x86)\Ampps\www\MVC-GAB\public\index.php(30): Core\Router::dispatch('posts/200')
+#1 {main} 
+Thrown in 'C:\Program Files (x86)\Ampps\www\MVC-GAB\Core\Router.php' on line '125' 
+
+[30-Dec-2018 17:47:24 UTC] Uncaught exception: 'Exception' 
+Route not found! 
+#0 C:\Program Files (x86)\Ampps\www\MVC-GAB\public\index.php(30): Core\Router::dispatch('favicon.ico')
+#1 {main} 
+Thrown in 'C:\Program Files (x86)\Ampps\www\MVC-GAB\Core\Router.php' on line '125' 
+
+[30-Dec-2018 17:47:39 UTC] Uncaught exception: 'Exception' 
+Route not found! 
+#0 C:\Program Files (x86)\Ampps\www\MVC-GAB\public\index.php(30): Core\Router::dispatch('posts/200')
+#1 {main} 
+Thrown in 'C:\Program Files (x86)\Ampps\www\MVC-GAB\Core\Router.php' on line '125' 
+
+[30-Dec-2018 17:47:40 UTC] Uncaught exception: 'Exception' 
+Route not found! 
+#0 C:\Program Files (x86)\Ampps\www\MVC-GAB\public\index.php(30): Core\Router::dispatch('favicon.ico')
+#1 {main} 
+Thrown in 'C:\Program Files (x86)\Ampps\www\MVC-GAB\Core\Router.php' on line '125' 
+
+[30-Dec-2018 17:48:26 UTC] Uncaught exception: 'Exception' 
+Route not found! 
+#0 C:\Program Files (x86)\Ampps\www\MVC-GAB\public\index.php(30): Core\Router::dispatch('posts/200')
+#1 {main} 
+Thrown in 'C:\Program Files (x86)\Ampps\www\MVC-GAB\Core\Router.php' on line '125' 
+
+[30-Dec-2018 17:48:26 UTC] Uncaught exception: 'Exception' 
+Route not found! 
+#0 C:\Program Files (x86)\Ampps\www\MVC-GAB\public\index.php(30): Core\Router::dispatch('favicon.ico')
+#1 {main} 
+Thrown in 'C:\Program Files (x86)\Ampps\www\MVC-GAB\Core\Router.php' on line '125' 
+
+[30-Dec-2018 17:50:11 UTC] Uncaught exception: 'Exception' 
+Route not found! 
+#0 C:\Program Files (x86)\Ampps\www\MVC-GAB\public\index.php(30): Core\Router::dispatch('posts/200')
+#1 {main} 
+Thrown in 'C:\Program Files (x86)\Ampps\www\MVC-GAB\Core\Router.php' on line '125' 
+
+[30-Dec-2018 17:50:13 UTC] Uncaught exception: 'Exception' 
+Route not found! 
+#0 C:\Program Files (x86)\Ampps\www\MVC-GAB\public\index.php(30): Core\Router::dispatch('posts/200')
+#1 {main} 
+Thrown in 'C:\Program Files (x86)\Ampps\www\MVC-GAB\Core\Router.php' on line '125' 
+
+[30-Dec-2018 17:51:05 UTC] Uncaught exception: 'Exception' 
+Method index does not exits in Controller App\Controllers\Post 
+#0 [internal function]: Core\Controller->__call('index@Action', Array)
+#1 [internal function]: App\Controllers\Post->index@Action(Array, Array)
+#2 C:\Program Files (x86)\Ampps\www\MVC-GAB\Core\Router.php(117): call_user_func_array(Array, Array)
+#3 C:\Program Files (x86)\Ampps\www\MVC-GAB\public\index.php(30): Core\Router::dispatch('post/200')
+#4 {main} 
+Thrown in 'C:\Program Files (x86)\Ampps\www\MVC-GAB\Core\Controller.php' on line '31' 
+
+[30-Dec-2018 18:00:48 UTC] Uncaught exception: 'Exception' 
+Route not found! 
+#0 C:\Program Files (x86)\Ampps\www\MVC-GAB\public\index.php(30): Core\Router::dispatch('posti/200')
+#1 {main} 
+Thrown in 'C:\Program Files (x86)\Ampps\www\MVC-GAB\Core\Router.php' on line '125' 
+
+[30-Dec-2018 18:00:48 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Undefined property: Exception::$getCode' in C:\Program Files (x86)\Ampps\www\MVC-GAB\Core\Error.php:51
+Stack trace:
+#0 C:\Program Files (x86)\Ampps\www\MVC-GAB\Core\Error.php(51): Core\Error::errorHandler(8, 'Undefined prope...', 'C:\\Program File...', 51, Array)
+#1 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#2 {main}
+  thrown in C:\Program Files (x86)\Ampps\www\MVC-GAB\Core\Error.php on line 51
+[30-Dec-2018 18:03:20 UTC] Uncaught exception: 'Exception' 
+Route not found! 
+#0 C:\Program Files (x86)\Ampps\www\MVC-GAB\public\index.php(30): Core\Router::dispatch('posti/200')
+#1 {main} 
+Thrown in 'C:\Program Files (x86)\Ampps\www\MVC-GAB\Core\Router.php' on line '125' 
+
+[30-Dec-2018 18:03:23 UTC] Uncaught exception: 'Exception' 
+Route not found! 
+#0 C:\Program Files (x86)\Ampps\www\MVC-GAB\public\index.php(30): Core\Router::dispatch('posti/200')
+#1 {main} 
+Thrown in 'C:\Program Files (x86)\Ampps\www\MVC-GAB\Core\Router.php' on line '125' 
+
+[30-Dec-2018 18:08:10 UTC] Uncaught exception: 'Exception' 
+Route not found! 
+#0 C:\Program Files (x86)\Ampps\www\MVC-GAB\public\index.php(30): Core\Router::dispatch('posti/200')
+#1 {main} 
+Thrown in 'C:\Program Files (x86)\Ampps\www\MVC-GAB\Core\Router.php' on line '125' 
+
+[30-Dec-2018 18:08:12 UTC] Uncaught exception: 'Exception' 
+Route not found! 
+#0 C:\Program Files (x86)\Ampps\www\MVC-GAB\public\index.php(30): Core\Router::dispatch('posti/200')
+#1 {main} 
+Thrown in 'C:\Program Files (x86)\Ampps\www\MVC-GAB\Core\Router.php' on line '125' 
+
+[30-Dec-2018 18:10:09 UTC] Uncaught exception: 'Exception' 
+Route not found! 
+#0 C:\Program Files (x86)\Ampps\www\MVC-GAB\public\index.php(30): Core\Router::dispatch('posti/200')
+#1 {main} 
+Thrown in 'C:\Program Files (x86)\Ampps\www\MVC-GAB\Core\Router.php' on line '125' 
+

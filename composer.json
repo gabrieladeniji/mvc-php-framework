@@ -1,0 +1,13 @@
+{
+
+    "require": {
+        "eftec/bladeone": "^3.18",
+        "symfony/finder": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "App\\": "App/"
+        }
+    }
+}

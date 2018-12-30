@@ -1,0 +1,14 @@
+<?php $_shouldextend[1]=1; ?>
+
+<?php $this->startSection('titile'); ?>
+ <title> Login Notification Email </title>
+<?php $this->stopSection(); ?>
+
+<?php $this->startSection('body'); ?>
+
+ <h1> Email Login Notification </h1>
+ <p> This will send a Email Login Notification to Users email address <?php echo static::e($params['email']); ?> <?php echo static::e($query['fred']); ?> </p>
+
+<?php $this->stopSection(); ?>
+
+<?php if (@$_shouldextend[1]) { echo $this->runChild('layouts.app'); } ?>
